@@ -1,11 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FeatureFirst-AppShell</title>
+    <link rel="stylesheet" href="FeatureFirst-AppShell.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    
+    <section class="container">
+
+        <!-- LEFT SIDE CONTENT -->
+        <div class="left-content">
+            <div class="logo-circle">
+                <img
+                    src="https://media.istockphoto.com/id/2153795538/vector/position.jpg?s=612x612&w=0&k=20&c=xmSz5wLN0zdx5V1AfJDne1zq8uXn4lLUkSxMn_FrOk4=">
+            </div>
+
+            <h1>Find the best deals<br>on flights right now</h1>
+
+            <div class="rating">
+                <span class="star full">★</span>
+                <span class="star full">★</span>
+                <span class="star full">★</span>
+                <span class="star full">★</span>
+                <span class="star half">★</span>
+                <div></div>
+            </div>
+                <p id="rating-para">Rated 4.5 out of 5 by 3200+ travelers!</p>
+        </div>
+
+        <!-- RIGHT SIDE FORM BOX -->
+        <div class="flight-box">
+
+            <!-- Trip type -->
+            <div class="trip-type">
+                <label><input type="radio" name="trip" checked> Round Trip</label>
+                <label><input type="radio" name="trip"> One Way</label>
+            </div>
+
+            <!-- Leaving -->
+            <div class="input-group">
+                <span class="icon">📍</span>
+                <input type="text" id="departure" placeholder="Leaving from...">
+            </div>
+
+            <!-- Going -->
+            <div class="input-group">
+                <span class="icon">📍</span>
+                <input type="text" id="destination" placeholder="Going to...">
+            </div>
+
+            <!-- Dates -->
+            <div class="two-inputs">
+                <div class="input-group">
+                    <span class="icon">📅</span>
+                    <input type="date" id="departure-date">
+                </div>
+
+                <div class="input-group">
+                    <span class="icon">📅</span>
+                    <input type="date" id="return-date">
+                </div>
+            </div>
+
+            <!-- Passengers & Class -->
+            <div class="two-inputs">
+                <div class="input-group">
+                    <span class="icon">👤</span>
+                    <select id="passengers">
+                        <option>1 Passenger</option>
+                        <option>2 Passengers</option>
+                        <option>3 Passengers</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <span class="icon">✈️</span>
+                    <select id="class">
+                        <option>Economy class</option>
+                        <option>Business class</option>
+                        <option>First class</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Button -->
+            <button id="search-btn" class="search-btn">Search Flights</button>
+        </div>
+
+    </section>
+    <script src="FeatureFirst-AppShell.js"></script>
 </body>
+
 </html>
