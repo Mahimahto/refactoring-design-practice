@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    font-family: "Inter", sans-serif;
+    background: hsl(210, 25%, 96%);
+    justify-content: center;
+    padding: 50px;
+}
+
+/* ==== Card Container ==== */
+
+.card {
+    display: flex;
+    background: white;
+    border-radius: 20px;
+    width: 70%;
+    height: 400px;
+    box-shadow: 
+        0 20px 40px rgba(0, 0, 0, 0.05),
+        0 5px 10px rgba(0, 0, 0, 0.03);
+    position: relative;
+}
+
+/* ==== Image ==== */
+
+.tour-img {
+    width: 25%;
+    object-fit: cover;
+    border-radius: 20px 0 0 20px;
+}
+
+/* ==== Text Content ==== */
+
+.content {
+    flex: 1;
+    padding: 30px;
+}
+
+/* Dark color → hsl(202, 57%, 15%) */
+.title {
+    font-size: 32px;
+    font-weight: 700;
+    color: hsl(202, 57%, 15%);
+    margin-bottom: 40px;
+}
+
+/* Normal text → font-weight 400 + light grey hsl(203, 15%, 47%) */
+.description {
+    font-size: 24px;
+    font-weight: 400;
+    color: hsl(203, 15%, 47%);
+    margin-bottom: 16px;
+    line-height: 1.4;
+}
+
+/* ==== Price Section ==== */
+
+.price-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 8px;
+}
+
+/* Bold → 700 + Dark */
+.price {
+    font-size: 24px;
+    font-weight: 700;
+    color: hsl(202, 57%, 15%);
+}
+
+/* Grey → hsl(201, 23%, 34%) */
+.per {
+    font-size: 24px;
+    color: hsl(201, 23%, 34%);
+    font-weight: 400;
+}
+
+/* ==== Rating ==== */
+
+.rating-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 14px;
+}
+
+.stars {
+    color: hsl(152, 65%, 40%);
+    font-size: 32px;
+}
+
+.reviews {
+    font-size: 24px;
+    color: hsl(203, 15%, 47%);
+}
+
+/* Small note → Light grey */
+.small-note {
+    font-size: 24px;
+    color: hsl(203, 15%, 47%);
+}
+
+/* ==== Book Now Button ==== */
+.book-btn {
+    background: hsl(231, 89%, 52%);
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    font-size: 24px;
+    font-weight: 600;
+    border-radius: 14px;
+    cursor: pointer;
+    width: 250px;
+}
+
+/* ==== PRICE + RATING + BUTTON Same Row ==== */
+.second-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+/* Rating + Button row */
+.rating-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+/* Stars + Reviews together */
+.rating-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
