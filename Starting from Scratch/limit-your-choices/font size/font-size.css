@@ -1,0 +1,29 @@
+.para-div{
+    display: flex;
+    gap: 20px;
+    border-bottom: gray dotted 1px;
+}
+#para-1{
+    font-size: 12px;
+}
+#para-2{
+    font-size: 14px;
+}
+#para-3{
+    font-size: 16px;
+}
+#para-4{
+    font-size: 18px;
+}
+#para-5{
+    font-size: 20px;
+}
+#para-6{
+    font-size: 24px;
+}
+#para-7{
+    font-size: 32px;
+}
+#para-8{
+    font-size: 48px;
+}
