@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+    background: #fff;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Background Image */
+.bg-img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Blue Overlay */
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(11, 48, 74, 0.7);  /* #0B304A with 70% opacity */
+}
+
+/* Content */
+.content {
+    position: relative;
+    padding: 80px 60px;
+    color: white;
+}
+
+/* Logo Section */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 40px;
+}
+
+.logo p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Heading */
+.content h1 {
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+/* Subtext */
+.subtext {
+    font-size: 32px;
+    line-height: 1.5;
+}
+
+/* Button */
+.cta-btn {
+    margin-top: 30px;
+    width: 250px;
+    height: 60px;
+    background: #F4C47A;
+    color: rgb(78, 39, 2);
+    font-weight: 600;
+    border: none;
+    padding: 14px 36px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    transition: 0.2s;
+}
+
+.cta-btn:hover {
+    background: #e8b673;
+}
