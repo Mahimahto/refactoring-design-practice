@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Dashboard</title>
+    <link rel="stylesheet" href="portfolio-dashboard-ui.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="nav-left">
+            <span class="nav-icon">📈</span>
+            <nav>
+                <a class="active">Dashboard</a>
+                <a>Quote</a>
+                <a>Buy/Sell</a>
+                <a>Orders</a>
+                <a>Transfers</a>
+                <a>Watchlists</a>
+            </nav>
+        </div>
+
+        <img class="profile" src="https://i.pravatar.cc/50" alt="">
+    </header>
+
+    <main class="page">
+
+        <div class="header-row">
+            <h2>Overview</h2>
+            <p class="date">As of December 11, 2018, 8:00 AM PT</p>
+        </div>
+
+        <!-- Summary Cards -->
+        <div class="summary">
+            <div class="card">
+                <p class="label">TOTAL BALANCE</p>
+                <h3>$16,412.92</h3>
+                <span class="green">+ $648.83</span>
+            </div>
+
+            <div class="card">
+                <p class="label">INVESTMENTS</p>
+                <h3>$15,606.14</h3>
+                <span class="green">+ $648.83</span>
+            </div>
+
+            <div class="card">
+                <p class="label">CASH</p>
+                <h3>$806.78</h3>
+            </div>
+        </div>
+
+        <!-- Tabs -->
+        <div class="tabs">
+            <button class="active">Holdings</button>
+            <button>Activity</button>
+            <button>Performance</button>
+            <button>Gain & Loss</button>
+        </div>
+
+        <!-- Table -->
+        <table class="holdings">
+            <thead>
+                <tr>
+                    <th>NAME</th>
+                    <th>QUANTITY</th>
+                    <th>PRICE</th>
+                    <th>AVG COST</th>
+                    <th>MKT VALUE</th>
+                    <th>GAIN/LOSS</th>
+                    <th>% OF PORTFOLIO</th>
+                    <th>BUY/SELL</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>
+                        <strong>TDB900</strong><br>
+                        <span class="small">TD CDN INDX -E / NLF RAC</span>
+                    </td>
+                    <td>140.143</td>
+                    <td>$25.70</td>
+                    <td>$24.49</td>
+                    <td>$3,601.68</td>
+                    <td class="green">
+                        +$170.00<br>
+                        <span class="small">+4.95%</span>
+                    </td>
+                    <td>10.10%</td>
+                    <td>
+                        <button class="btn">Buy</button>
+                        <button class="btn">Sell</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <strong>TDB902</strong><br>
+                        <span class="small">TD US INDX CS -E / NLF RAC</span>
+                    </td>
+                    <td>65.218</td>
+                    <td>$54.86</td>
+                    <td>$51.95</td>
+                    <td>$3,577.86</td>
+                    <td class="green">
+                        +$189.70<br>
+                        <span class="small">+15.60%</span>
+                    </td>
+                    <td>12.90%</td>
+                    <td>
+                        <button class="btn">Buy</button>
+                        <button class="btn">Sell</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <strong>TDB909</strong><br>
+                        <span class="small">TD CD BD IDX -E SE / NLF RAC</span>
+                    </td>
+                    <td>415.872</td>
+                    <td>$11.64</td>
+                    <td>$11.63</td>
+                    <td>$4,840.75</td>
+                    <td class="green">
+                        +$6.01<br>
+                        <span class="small">+0.12%</span>
+                    </td>
+                    <td>8.00%</td>
+                    <td>
+                        <button class="btn">Buy</button>
+                        <button class="btn">Sell</button>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+
+    </main>
+
+</body>
+</html>
