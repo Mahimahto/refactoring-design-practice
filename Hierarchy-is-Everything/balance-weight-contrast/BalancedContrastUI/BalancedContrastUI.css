@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    background: #ffffff;
+}
+
+/* LAYOUT */
+.layout {
+    display: flex;
+}
+
+/* SIDEBAR */
+.sidebar {
+    width: 260px;
+    background: #f7f9fc;
+    padding: 24px;
+    border-right: 1px solid #e6e8ef;
+}
+
+/* Sidebar Titles */
+.section-title {
+    font-size: 12px;
+    color: hsl(212, 20%, 40%);
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+}
+
+.mt {
+    margin-top: 40px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 16px 0;
+}
+
+.menu li {
+    padding: 10px 0;
+    color: hsl(212, 20%, 13%);  /* DARK COLOR */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.icon {
+    color: hsl(212, 20%, 68%);  /* LIGHT COLOR */
+}
+
+/* MAIN CONTENT */
+.content {
+    padding: 40px;
+    flex: 1;
+    background: #fbfbfe;
+}
+
+.content h2{
+    color: rgb(160, 158, 158);
+}
+.playlist-title {
+    font-size: 36px;
+    color: hsl(212, 20%, 13%);
+    margin: 0;
+}
+
+.curated {
+    color: hsl(212, 20%, 33%);
+    margin-top: 8px;
+}
+
+.blue {
+    color: #0074d9;
+}
+
+/* PLAY BUTTON */
+.play-btn {
+    margin-top: 20px;
+    background: #0074d9;
+    border: none;
+    padding: 12px 24px;
+    color: white;
+    border-radius: 24px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* SONGS LIST */
+.song-list {
+    margin-top: 30px;
+}
+
+.song {
+    display: grid;
+    grid-template-columns: 40px 1fr 120px;
+    padding: 16px 0;
+    border-bottom: 1px solid #e6e8ef;
+}
+
+.plus {
+    color: hsl(212, 20%, 68%);
+}
+
+.name {
+    color: hsl(212, 20%, 13%);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.artist {
+    text-align: right;
+    color: hsl(212, 20%, 33%);
+    font-size: 14px;
+}
