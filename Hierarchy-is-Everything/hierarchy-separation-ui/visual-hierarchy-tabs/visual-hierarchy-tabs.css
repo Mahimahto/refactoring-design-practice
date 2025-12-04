@@ -1,0 +1,108 @@
+/* Global */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Inter, sans-serif;
+    background: #ffffff;
+}
+
+/* Page Heading */
+.page-header {
+    padding: 24px 40px;
+}
+
+.page-header h2 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #374151;
+}
+
+/* Tabs Container */
+.tabs-container {
+    background: #f5f6fa;
+    padding: 0 40px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.tabs {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 32px;
+}
+
+.tab {
+    padding: 18px 0;
+    cursor: pointer;
+    font-size: 16px;
+    color: #6b7280;
+    position: relative;
+    transition: 0.3s;
+}
+
+.tab:hover {
+    color: #374151;
+}
+
+/* Active Tab */
+.tab.active {
+    color: #1e40af;
+    font-weight: 600;
+}
+
+.tab.active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 40px;
+    height: 2px;
+    background: #1e40af;
+    border-radius: 100px;
+}
+
+/* Content Box */
+.content-box {
+    margin: 40px;
+    padding: 24px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.06);
+}
+
+.content-box h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #1f2937;
+}
+
+.info-text {
+    margin-top: 6px;
+    color: #6b7280;
+    font-size: 14px;
+}
+
+/* Form */
+.form-row {
+    display: flex;
+    gap: 24px;
+    margin-top: 20px;
+}
+
+.field label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 6px;
+    color: #374151;
+}
+
+.field input {
+    width: 220px;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 8px;
+    border: 1px solid #d1d5db;
+    background: #f1f5f9;
+}
