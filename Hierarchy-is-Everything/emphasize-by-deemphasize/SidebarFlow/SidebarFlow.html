@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SidebarFlow</title>
+    <link rel="stylesheet" href="SidebarFlow.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- LEFT SIDEBAR -->
+        <aside class="sidebar">
+            <p class="step-label">STEP 1 OF 5</p>
+
+            <ul class="steps">
+                <li class="step active">
+                    <span class="circle active"></span>
+                    Your Itinerary
+                </li>
+
+                <li class="step">
+                    <span class="circle"></span>
+                    Cabin Selection
+                </li>
+
+                <li class="step">
+                    <span class="circle"></span>
+                    Passenger Details
+                </li>
+
+                <li class="step">
+                    <span class="circle"></span>
+                    Order Confirmation
+                </li>
+
+                <li class="step">
+                    <span class="circle"></span>
+                    Completion
+                </li>
+            </ul>
+        </aside>
+
+        <!-- RIGHT CONTENT -->
+        <main class="content">
+            <h2>Your Itinerary</h2>
+
+            <div class="form-card">
+                <label class="radio-group">
+                    <input type="radio" name="trip" checked />
+                    <span>Round-trip</span>
+                </label>
+
+                <label class="radio-group">
+                    <input type="radio" name="trip" />
+                    <span>One-way</span>
+                </label>
+
+                <div class="input-group">
+                    <input type="text" placeholder="From?" />
+                    <input type="date" />
+                </div>
+            </div>
+
+            <div class="form-card">
+                <h3>Passengers</h3>
+
+                <div class="input-group">
+                    <input type="number" placeholder="Adults" />
+                    <input type="number" placeholder="Children (0-12)" />
+                </div>
+            </div>
+
+        </main>
+    </div>
+</body>
+
+</html>
