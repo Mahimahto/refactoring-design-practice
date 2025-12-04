@@ -1,0 +1,89 @@
+body {
+    background: #f5f5f5;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.card {
+    background: #fff;
+    width: 300px;
+    padding: 32px 30px;
+    border-radius: 14px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.card h2 {
+    font-size: 18px;
+    margin-bottom: 18px;
+    font-weight: 600;
+    color: #222;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.label {
+    width: 45px;
+    font-size: 14px;
+    color: #1a73e8;
+}
+
+.bar {
+    width: 140px;
+    height: 7px;
+    background: #e5e5e5;
+    border-radius: 10px;
+    margin: 0 10px;
+    overflow: hidden;
+}
+
+.fill {
+    height: 100%;
+    background: #f7a600;
+    border-radius: 10px;
+}
+
+.w56 { width: 56%; }
+.w20 { width: 20%; }
+.w14 { width: 14%; }
+.w2  { width: 2%; }
+.w8  { width: 8%; }
+
+.percent {
+    font-size: 14px;
+    color: #555;
+}
+
+.review-section {
+    margin-top: 28px;
+}
+
+.review-section h3 {
+    font-size: 15px;
+    margin-bottom: 4px;
+    font-weight: 600;
+}
+
+.review-section p {
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 18px;
+}
+
+.review-btn {
+    padding: 8px 18px;
+    background: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.review-btn:hover {
+    background: #eee;
+}
