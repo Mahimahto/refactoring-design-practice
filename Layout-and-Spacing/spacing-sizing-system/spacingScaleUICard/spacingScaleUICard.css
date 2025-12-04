@@ -1,0 +1,111 @@
+body {
+  font-family: "Inter", sans-serif;
+  background: #f3f4f6;
+  padding: 40px;
+}
+
+.card {
+  display: flex;
+  max-width: 900px;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  margin: auto;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+}
+
+.image-wrapper img {
+  width: 400px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content {
+  padding: 24px;
+  flex: 1;
+}
+
+/* Title */
+.title {
+  color: #41806E;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.8px;
+  margin-bottom: 12px;
+}
+
+/* AVG Price */
+.avg {
+  font-size: 22px;
+  font-weight: 600;
+  color: #1A1F36;
+  margin-bottom: 24px;
+}
+
+.avg .amount {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0 6px;
+}
+
+.avg .unit {
+  font-size: 14px;
+  color: #6B7280;
+  font-weight: 500;
+}
+
+/* Buttons */
+.actions {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.view-btn {
+  background: #F5C86A;
+  padding: 14px 28px;
+  border-radius: 6px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.fav-btn {
+  background: white;
+  border: 2px solid #E5E7EB;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Highlights */
+.highlights-title {
+  font-weight: 700;
+  font-size: 14px;
+  color: #6B7280;
+  margin-bottom: 12px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.list li {
+  padding-left: 12px;
+  margin-bottom: 12px;
+  position: relative;
+  font-size: 15px;
+  color: #374151;
+}
+
+.list li::before {
+  content: "•";
+  color: #41806E;
+  font-size: 22px;
+  position: absolute;
+  left: 0;
+  top: -2px;
+}
