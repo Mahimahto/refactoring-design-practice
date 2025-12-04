@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+}
+
+body {
+  background: #f5f7fa;
+  padding: 40px;
+}
+
+.post-container {
+  width: 500px;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  padding: 24px 28px;
+  border-radius: 6px;
+  margin: auto;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.user-info h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.user-info p {
+  font-size: 13px;
+  color: #6b7280;
+}
+
+.time {
+  margin-left: auto;
+  color: #6b7280;
+  font-size: 13px;
+}
+
+.more {
+  margin-left: 12px;
+  font-size: 20px;
+  color: #9ca3af;
+}
+
+.post-text {
+  font-size: 15px;
+  line-height: 22px;
+  color: #374151;
+  margin-bottom: 20px;
+}
+
+/* -----------------------------
+   INTERACTIONS SECTION
+------------------------------ */
+
+.interactions {
+  display: flex;
+  align-items: center;
+  gap: 36px; /* EXACT between items */
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 6px; /* EXACT like screenshot */
+  cursor: pointer;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.count {
+  font-size: 14px;
+  color: #374151;
+  font-weight: 500;
+}
+
+.share-text {
+  font-size: 14px;
+  color: #374151;
+}
