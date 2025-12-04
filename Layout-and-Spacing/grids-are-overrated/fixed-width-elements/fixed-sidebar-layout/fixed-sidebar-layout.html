@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixed Sidebar Layout</title>
+    <link rel="stylesheet" href="fixed-sidebar-layout.css">
+</head>
+
+<body>
+    <div class="layout">
+
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+            <div class="logo">〰〰</div>
+
+            <nav>
+                <a class="nav-item active">
+                    <span>📊</span> Dashboard
+                </a>
+                <a class="nav-item">
+                    <span>📄</span> Invoices
+                </a>
+                <a class="nav-item">
+                    <span>💰</span> Expenses
+                </a>
+                <a class="nav-item">
+                    <span>⏱️</span> Time Tracking
+                </a>
+            </nav>
+        </aside>
+
+        <!-- MAIN CONTENT -->
+        <main class="main">
+
+            <!-- TOP BAR -->
+            <header class="topbar">
+                <div class="search">
+                    <input type="text" placeholder="Search…" />
+                </div>
+
+                <div class="actions">
+                    <span>🔔</span>
+                    <span>⚙️</span>
+                    <img class="avatar" src="https://i.pravatar.cc/40" alt="user">
+                </div>
+            </header>
+
+            <!-- FILTER BAR -->
+            <div class="filter-box">
+                <span>📅 Last 30 days</span>
+            </div>
+
+            <!-- CARDS GRID -->
+            <section class="cards-grid">
+
+                <div class="card">
+                    <h3>Carl Phillips</h3>
+                    <span class="badge pending">Pending</span>
+                    <p class="amount">US$249.00</p>
+                    <small>2 days ago</small>
+                </div>
+
+                <div class="card">
+                    <h3>Adam Harris</h3>
+                    <span class="badge overdue">Overdue</span>
+                    <p class="amount">US$560.00</p>
+                    <small>8 days ago</small>
+                </div>
+
+                <div class="card">
+                    <h3>Mary Butler</h3>
+                    <span class="badge paid">Paid</span>
+                    <p class="amount">US$329.00</p>
+                    <small>9 days ago</small>
+                </div>
+                <div class="card">
+                    <h3>Carl Phillips</h3>
+                    <span class="badge pending">Pending</span>
+                    <p class="amount">US$249.00</p>
+                    <small>2 days ago</small>
+                </div>
+
+                <div class="card">
+                    <h3>Adam Harris</h3>
+                    <span class="badge overdue">Overdue</span>
+                    <p class="amount">US$560.00</p>
+                    <small>8 days ago</small>
+                </div>
+
+                <div class="card">
+                    <h3>Mary Butler</h3>
+                    <span class="badge paid">Paid</span>
+                    <p class="amount">US$329.00</p>
+                    <small>9 days ago</small>
+                </div>
+
+                <div class="card">
+                    <h3>Kelly Soto</h3>
+                    <span class="badge paid">Paid</span>
+                    <p class="amount">US$649.00</p>
+                    <small>9 days ago</small>
+                </div>
+
+            </section>
+        </main>
+
+    </div>
+</body>
+
+</html>
