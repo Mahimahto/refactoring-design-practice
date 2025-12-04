@@ -1,0 +1,138 @@
+body {
+  font-family: Inter, sans-serif;
+  background: #f7f8fa;
+  margin: 0;
+  padding: 40px 0;
+}
+
+.container {
+  width: 780px;
+  background: #fff;
+  margin: auto;
+  border-radius: 8px;
+  padding: 40px 60px;
+  box-shadow: 0 1px 4px rgb(0 0 0 / 8%);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  font-size: 26px;
+  letter-spacing: 3px;
+  margin: 0;
+  font-weight: 500;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: #444;
+}
+
+.icon {
+  height: 20px;
+  opacity: 0.8;
+}
+
+.items-count {
+  font-size: 13px;
+  margin-top: 40px;
+  margin-bottom: 18px;
+  color: #777;
+}
+
+.item {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.item-img {
+  width: 70px;
+  border-radius: 6px;
+}
+
+.info .title {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.sub {
+  font-size: 13px;
+  color: #666;
+  margin-top: 2px;
+}
+
+.price {
+  margin-left: auto;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.discount {
+  margin-top: 35px;
+  display: flex;
+  gap: 12px;
+}
+
+.discount input {
+  flex: 1;
+  padding: 10px 14px;
+  border-radius: 6px;
+  border: 1px solid #d7d7d7;
+  font-size: 14px;
+}
+
+.discount button {
+  padding: 10px 22px;
+  border: none;
+  background: #d5dadd;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.line {
+  height: 1px;
+  background: #e5e7eb;
+  margin: 28px 0;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.label {
+  color: #555;
+}
+
+.value {
+  font-weight: 600;
+}
+
+.total-row {
+  margin-top: 15px;
+  align-items: center;
+}
+
+.total {
+  font-weight: 600;
+}
+
+.currency {
+  margin-left: auto;
+  margin-right: 4px;
+  color: #333;
+}
+
+.total-value {
+  font-weight: 700;
+  font-size: 18px;
+}
