@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background: #f5f7fa;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 760px;
+  background: white;
+  border-radius: 18px;
+  display: flex;
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  height: 250px;
+}
+
+.card-image img {
+  width: 260px;
+  height: 100%;
+  object-fit: cover;
+  background: #d9e7f2;
+}
+
+.card-content {
+  padding: 24px;
+  width: 100%;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1a2a3a;
+}
+
+.price {
+  font-size: 22px;
+  font-weight: 700;
+  color: #0c2d48;
+}
+
+.location {
+  font-size: 14px;
+  color: #6c7a89;
+  margin-top: 4px;
+}
+
+.description {
+  font-size: 15px;
+  color: #3d4d5c;
+  margin-top: 12px;
+  line-height: 1.45;
+}
+
+.actions {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete-btn {
+  color: #0c4a6e;
+  background: none;
+  border: none;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.right-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.edit-btn {
+  background: #e5ebf0;
+  border: none;
+  padding: 8px 22px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.publish-btn {
+  background: #0f6efd;
+  border: none;
+  padding: 8px 22px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+}
