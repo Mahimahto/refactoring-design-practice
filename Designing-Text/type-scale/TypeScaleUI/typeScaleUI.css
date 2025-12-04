@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.left .product-img {
+    width: 300px;
+    height:400px;
+}
+
+.right {
+    width: 600px;
+}
+
+/* 18px */
+.title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+/* 14px */
+.view-details {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 24px;
+}
+
+.label {
+    font-size: 14px;
+}
+
+/* Color selectors */
+.color-row {
+    display: flex;
+    gap: 16px;
+    margin: 14px 0 24px 0;
+}
+
+.color-option {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: 2px solid #aaa;
+}
+
+.color-option.active {
+    background: #b86f3f;
+    border-color: #b86f3f;
+}
+
+/* 24px Price */
+.price {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+/* 16px Description */
+.desc {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+    color: #555;
+}
+
+/* Add to cart */
+.add-btn {
+    background: #333;
+    color: white;
+    border: none;
+    padding: 14px 26px;
+    font-size: 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 24px;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+/* Available to ship */
+.ship-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.check {
+    color: green;
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+/* 14px */
+.ship-text {
+    font-size: 14px;
+}
+
+/* Delivery Calc Box */
+.delivery-box {
+    background: #f2f2f2;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+/* 16px */
+.delivery-title {
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+/* 14px */
+.zip-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    border-radius: 4px;
+}
