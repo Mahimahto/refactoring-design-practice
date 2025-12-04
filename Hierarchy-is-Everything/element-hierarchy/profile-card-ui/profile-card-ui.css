@@ -1,0 +1,70 @@
+body {
+  background: #f1f3f8;
+  font-family: "Inter", sans-serif;
+}
+
+.card {
+  width: 500px;
+  margin: 60px auto;
+  background: white;
+  border-radius: 25px;
+  /* padding: 40px 30px 0 30px; */
+  position: relative;
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+
+/* Quote */
+.quote {
+  text-align: center;
+  font-size: 24px;
+  line-height: 1.6;
+  color: #444;
+  /* padding: 0 10px; */
+  margin: 40px;
+}
+
+/* Profile image */
+.profile-pic {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
+.profile-pic img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 6px solid white;
+}
+
+/* Bottom teal section with REAL WAVE */
+.bottom-section {
+  margin-top: 100px;
+  height: 100px;
+  border-radius: 0 0 22px 22px;
+  padding-top: 60px;
+  text-align: center;
+  background: hsl(183, 70%, 32%);
+
+  /* EXACT WAVE PATTERN */
+  background-image: url("data:image/svg+xml,%3Csvg%20width='200'%20height='40'%20xmlns='http://www.w3.org/2000/svg'%3E%3Cpath%20d='M0%2020%20Q25%200%2050%2020%20T100%2020%20T150%2020%20T200%2020'%20stroke='rgba(0,0,0,0.12)'%20stroke-width='6'%20fill='none'/%3E%3C/svg%3E");
+  background-size: 200px 40px;
+  background-repeat: repeat;
+}
+
+/* TEXT COLORS NOW WORK */
+.bottom-section h2 {
+  color: white;
+  font-size: 24px;
+  letter-spacing: 1px;
+  margin-bottom: 4px;
+}
+
+.bottom-section p {
+  color: hsl(183, 70%, 84%);
+  font-size: 14px;
+  letter-spacing: 2px;
+}
