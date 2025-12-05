@@ -1,0 +1,72 @@
+body {
+    font-family: "Inter", sans-serif;
+    background: #eef3f6;
+    padding: 40px;
+}
+
+.table-wrapper {
+    width: 90%;
+    margin: auto;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #d8e0e8;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+}
+
+/* HEADER */
+thead {
+    background: #f5f9fc;
+}
+
+thead th {
+    padding: 14px 16px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #6b7c92;
+    letter-spacing: 0.5px;
+    text-align: left;
+    border-bottom: 1px solid #e3e9ef;
+}
+
+/* BODY ROWS */
+tbody tr {
+    background: #ffffff;
+}
+
+tbody td {
+    padding: 16px 18px;
+    color: #243447;
+    border-bottom: 1px solid #e7edf3;
+}
+
+/* Right aligned numeric columns */
+.right {
+    text-align: right;
+}
+
+/* EXACT THIN RED VERTICAL DIVIDER (Screenshot style) */
+th:nth-child(2),
+td:nth-child(2),
+th:nth-child(3),
+td:nth-child(3) {
+    border-left: 1px solid rgba(255, 80, 80, 0.25);
+    border-right: 1px solid rgba(255, 80, 80, 0.25);
+}
+
+/* Bottom shadow same as screenshot */
+.table-wrapper::after {
+    content: "";
+    display: block;
+    height: 20px;
+    background: linear-gradient(
+        rgba(200, 220, 235, 0.25),
+        rgba(160, 180, 200, 0.40)
+    );
+}
