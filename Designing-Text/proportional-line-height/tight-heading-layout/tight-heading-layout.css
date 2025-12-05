@@ -1,0 +1,23 @@
+body {
+    font-family: "Inter", sans-serif;
+    background: #eef1f6;
+    padding: 60px;
+}
+
+.hero {
+    max-width: 40em;
+    margin: auto;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 1; /* ✔ Tight line-height for headings */
+    margin-bottom: 20px;
+    color: #14212f;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #4a5661;
+}
