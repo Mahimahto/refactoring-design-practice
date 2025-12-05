@@ -1,0 +1,60 @@
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    background: #ffffff;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #e3e8ef;
+    padding: 40px 20px;
+}
+
+.card {
+    width: 30%;
+    text-align: center;
+}
+
+.icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 18px;
+}
+
+.icon img {
+    width: 32px;
+    opacity: 0.85;
+}
+
+.blue {
+    background: #e6f3ff;
+}
+
+.green {
+    background: #e5f8e8;
+}
+
+.purple {
+    background: #eee7ff;
+}
+
+h3 {
+    font-size: 18px;
+    color: #1a2b49;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+p {
+    font-size: 15px;
+    color: #4f5f7a;
+    line-height: 1.6;
+}
