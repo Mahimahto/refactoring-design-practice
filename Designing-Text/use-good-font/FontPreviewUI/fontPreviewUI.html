@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Preview UI</title>
+    <link rel="stylesheet" href="fontPreviewUI.css">
+
+    <!-- Import same fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=EB+Garamond:wght@400;500&family=Alegreya:wght@400;500&family=Cormorant+Garamond:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ===== Top Bar ===== -->
+    <div class="top-bar">
+        <div class="left">
+            <label>Sort by</label>
+            <select>
+                <option>Popularity</option>
+            </select>
+        </div>
+
+        <div class="right">
+            <label>Sample text</label>
+            <input type="text" value="The quick brown fox jumps over the lazy dog">
+        </div>
+    </div>
+
+    <!-- ===== Font List ===== -->
+    <div class="font-list">
+
+        <!-- Item 1 -->
+        <div class="font-item">
+            <div class="row">
+                <div class="name">EB Garamond</div>
+                <div class="styles">10 Styles</div>
+
+                <div class="icons">
+                    <span>🤍</span>
+                    <span>&lt;/&gt;</span>
+                </div>
+            </div>
+
+            <p class="sample" style="font-family:'EB Garamond', serif;">
+                The quick brown fox jumps over the lazy dog
+            </p>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="font-item">
+            <div class="row">
+                <div class="name">Alegreya</div>
+                <div class="styles">10 Styles</div>
+
+                <div class="icons">
+                    <span>🤍</span>
+                    <span>&lt;/&gt;</span>
+                </div>
+            </div>
+
+            <p class="sample" style="font-family:'Alegreya', serif;">
+                The quick brown fox jumps over the lazy dog
+            </p>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="font-item">
+            <div class="row">
+                <div class="name">Cormorant Garamond</div>
+                <div class="styles">10 Styles</div>
+
+                <div class="icons">
+                    <span>🤍</span>
+                    <span>&lt;/&gt;</span>
+                </div>
+            </div>
+
+            <p class="sample" style="font-family:'Cormorant Garamond', serif;">
+                The quick brown fox jumps over the lazy dog
+            </p>
+        </div>
+
+    </div>
+
+</body>
+</html>
