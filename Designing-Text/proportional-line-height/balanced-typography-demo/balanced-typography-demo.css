@@ -1,0 +1,27 @@
+body {
+    font-family: "Inter", sans-serif;
+    background: #f3f5fa;
+    padding: 60px;
+}
+
+.section {
+    max-width: 38em;
+    margin: auto;
+    background: white;
+    border-radius: 14px;
+    padding: 50px;
+    box-shadow: 0 8px 28px rgba(0,0,0,0.08);
+}
+
+h1 {
+    font-size: 42px;
+    line-height: 1; /* ✔ Headings tight */
+    color: #111c28;
+    margin-bottom: 18px;
+}
+
+p {
+    font-size: 17px;
+    line-height: 1.5; /* ✔ Body text readable */
+    color: #495462;
+}
