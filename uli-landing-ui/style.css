@@ -168,7 +168,7 @@ body {
 .border.left {
   bottom: 0;
   left: 0;
-  width: 80%;
+  width: 100%;
   height: 50px;
   transform: rotate(-90deg);
   transform-origin: top left;
@@ -179,12 +179,25 @@ body {
 .border.right {
   bottom: 0;
   right: 0;
-  width: 80%;
+  width: 100%;
   height: 50px;
   transform: rotate(90deg);
   transform-origin: top right;
   background-repeat: repeat-x;
 }
+
+.border.bottom {
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 50px;
+  transform: rotate(90deg);
+  transform-origin: top right;
+  background-repeat: repeat-x;
+}
+
+
+
 /*===============PluginCard================*/
 .pluginCard {
   background: #ffa76b;
@@ -259,9 +272,9 @@ body {
   border-radius: 8px;
   box-shadow:
     -8px 0 0 #fde7db,
-     8px 0 0 #fde7db,
-     0 -8px 0 #fde7db,
-     0  8px 0 #fde7db;
+    8px 0 0 #fde7db,
+    0 -8px 0 #fde7db,
+    0 8px 0 #fde7db;
 }
 
 .databaseContent {
@@ -317,9 +330,9 @@ body {
   border-radius: 8px;
   box-shadow:
     -8px 0 0 #fde7db,
-     8px 0 0 #fde7db,
-     0 -8px 0 #fde7db,
-     0  8px 0 #fde7db;
+    8px 0 0 #fde7db,
+    0 -8px 0 #fde7db,
+    0 8px 0 #fde7db;
 }
 
 .communityContent {
@@ -377,9 +390,9 @@ body {
   border-radius: 8px;
   box-shadow:
     -8px 0 0 #fde7db,
-     8px 0 0 #fde7db,
-     0 -8px 0 #fde7db,
-     0  8px 0 #fde7db;
+    8px 0 0 #fde7db,
+    0 -8px 0 #fde7db,
+    0 8px 0 #fde7db;
 }
 
 .dataYContent {
@@ -409,6 +422,10 @@ body {
   line-height: 1.6;
   margin-bottom: 36px;
   color: #1c1c1c;
+  font-family: 'DotGothic16', monospace;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+
 }
 
 /* BUTTON */
@@ -424,14 +441,102 @@ body {
   cursor: pointer;
 }
 
-/* BOTTOM */
-.border.bottom {
-  bottom: 0;
-  left: 0;
+/*=============update-section======================*/
+
+.updatesection {
+  background: #fbf6ec;
+  padding: 80px 100px;
+}
+
+.updates-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.update-row {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 60px;
+
+  padding: 22px 0;
+}
+
+/* DATE STYLE */
+.update-date {
+  font-family: monospace;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #1c1c1c;
+}
+
+/* TITLE STYLE */
+.update-title {
+  font-family: serif;
+  font-size: 20px;
+  line-height: 1.4;
+  color: #000;
+}
+
+
+/*==============resource-section===========================*/
+
+/* SECTION */
+.resourceSection {
+  padding: 80px 100px;
+  font-family: serif;
+}
+
+/* GROUP */
+.resourceGroup {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  column-gap: 60px;
+  margin-bottom: 80px;
+}
+
+/* LEFT DOTTED SVG TITLE */
+.resourceType img {
+  width: 180px;
+}
+
+/* LIST */
+.resourceList {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+/* ROW */
+.resourceRow {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  align-items: baseline;
+}
+
+/* LABEL (Report / Guidelines / Database) */
+.resourceLabel {
+  font-size: 22px;
+  color: #8a8a8a;
+  font-family: serif;
+}
+
+/* MAIN TITLE */
+.resourceTitle {
+  font-size: 24px;
+  color: #000;
+  line-height: 1.4;
+}
+/*============Button-Boder============*/
+.bottom-boder {
+  position: relative;        
   width: 100%;
   height: 50px;
+  background-image: url("assets/svg/border.svg");
   background-repeat: repeat-x;
+  background-size: auto 100%;
+  background-position: left bottom;
 }
+
 
 
 
