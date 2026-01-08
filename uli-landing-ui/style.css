@@ -247,6 +247,67 @@ body {
 }
 
 
+/*===============databaseCard==============*/
+
+.databaseCard {
+  background: #fde7db;
+  padding: 70px 80px;
+  margin: 80px auto;
+  max-width: 1200px;
+
+  /* rough paper feel */
+  border-radius: 8px;
+  box-shadow:
+    -8px 0 0 #fde7db,
+     8px 0 0 #fde7db,
+     0 -8px 0 #fde7db,
+     0  8px 0 #fde7db;
+}
+
+.databaseContent {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+
+/* LEFT ICON */
+.databaseIcon img {
+  width: 260px;
+  image-rendering: pixelated;
+}
+
+/* RIGHT TEXT */
+.databaseText {
+  max-width: 55%;
+}
+
+.titleSvg {
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.databaseText p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 32px;
+  color: #1c1c1c;
+}
+
+/* BUTTONS */
+.actions {
+  display: flex;
+  gap: 24px;
+}
+
+.pixelBtn {
+  background: transparent;
+  padding: 14px 36px;
+  border: 2px dashed #1c1c1c;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+
 /* BOTTOM */
 .border.bottom {
   bottom: 0;
