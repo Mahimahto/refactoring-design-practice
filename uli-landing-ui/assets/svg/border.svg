@@ -1,0 +1,96 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 1400 140"
+  width="100%"
+  height="140"
+  fill="none"
+>
+
+  <!-- Top dotted line (polished) -->
+  <line
+    x1="0"
+    y1="18"
+    x2="1400"
+    y2="18"
+    stroke="#000"
+    stroke-width="4"
+    stroke-linecap="round"
+    stroke-dasharray="10 16"
+  />
+
+  <!-- Bottom dotted line (polished) -->
+  <line
+    x1="0"
+    y1="122"
+    x2="1400"
+    y2="122"
+    stroke="#000"
+    stroke-width="4"
+    stroke-linecap="round"
+    stroke-dasharray="10 16"
+  />
+
+  <!-- Dense square band -->
+  <g stroke="#000" stroke-width="2.5" fill="none">
+    <defs>
+      <rect
+        id="square"
+        x="-28"
+        y="-28"
+        width="56"
+        height="56"
+        stroke-width="6"
+        transform="rotate(45)"
+      />
+    </defs>
+
+    <g transform="translate(40 70)">
+      <use href="#square" x="0" />
+      <use href="#square" x="40" />
+      <use href="#square" x="80" />
+      <use href="#square" x="120" />
+      <use href="#square" x="160" />
+      <use href="#square" x="200" />
+      <use href="#square" x="240" />
+      <use href="#square" x="280" />
+      <use href="#square" x="320" />
+      <use href="#square" x="360" />
+      <use href="#square" x="400" />
+      <use href="#square" x="440" />
+      <use href="#square" x="480" />
+      <use href="#square" x="520" />
+      <use href="#square" x="560" />
+      <use href="#square" x="600" />
+      <use href="#square" x="640" />
+      <use href="#square" x="680" />
+      <use href="#square" x="720" />
+      <use href="#square" x="760" />
+      <use href="#square" x="800" />
+      <use href="#square" x="840" />
+      <use href="#square" x="880" />
+      <use href="#square" x="920" />
+      <use href="#square" x="960" />
+      <use href="#square" x="1000" />
+      <use href="#square" x="1040" />
+      <use href="#square" x="1080" />
+      <use href="#square" x="1120" />
+      <use href="#square" x="1160" />
+      <use href="#square" x="1200" />
+      <use href="#square" x="1240" />
+      <use href="#square" x="1280" />
+      <use href="#square" x="1320" />
+      <use href="#square" x="1360" />
+      <use href="#square" x="1400" />
+      <use href="#square" x="1440" />
+      <use href="#square" x="1480" />
+      <use href="#square" x="1520" />
+      <use href="#square" x="1600" />
+      <use href="#square" x="1640" />
+      <use href="#square" x="1680" />
+      <use href="#square" x="1720" />
+      <use href="#square" x="1760" />
+      <use href="#square" x="1800" />
+    </g>
+  </g>
+
+</svg>
