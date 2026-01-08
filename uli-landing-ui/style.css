@@ -135,7 +135,8 @@ body {
   height: 40px;
   display: flex;
   align-items: center;
-  margin-bottom: 24px; /* ek ke neeche ek */
+  margin-bottom: 24px;
+  /* ek ke neeche ek */
 }
 
 /* LEFT & RIGHT LINES */
@@ -184,6 +185,67 @@ body {
   transform-origin: top right;
   background-repeat: repeat-x;
 }
+/*===============PluginCard================*/
+.pluginCard {
+  background: #ffa76b;
+  padding: 60px;
+  margin: 60px auto;
+  max-width: 1200px;
+
+  /* rough edges feel */
+  border-radius: 6px;
+  box-shadow:
+    -6px 0 0 #ffa76b,
+    6px 0 0 #ffa76b,
+    0 -6px 0 #ffa76b,
+    0 6px 0 #ffa76b;
+}
+
+.pluginContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+/* LEFT */
+.pluginText {
+  max-width: 55%;
+}
+
+.titleSvg {
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.pluginText p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  color: #1c1c1c;
+}
+
+/* BUTTONS */
+.actions {
+  display: flex;
+  gap: 20px;
+}
+
+.pixelBtn {
+  background: transparent;
+  padding: 12px 28px;
+  border: 2px dashed #1c1c1c;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* RIGHT ICON */
+.pluginIcon img {
+  width: 240px;
+  height: auto;
+  image-rendering: pixelated;
+}
+
 
 /* BOTTOM */
 .border.bottom {
